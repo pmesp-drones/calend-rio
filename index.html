@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Calendário</title>
+  <meta name="description" content="Calendário em imagem" />
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      background: #0f172a; /* azul-escuro */
+      color: #e2e8f0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    }
+    .wrap {
+      min-height: 100%;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      box-sizing: border-box;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      box-shadow: 0 10px 30px rgba(0,0,0,.35);
+      border-radius: 16px;
+    }
+    .creditos {
+      position: fixed;
+      bottom: 8px;
+      left: 0; right: 0;
+      text-align: center;
+      font-size: 12px;
+      opacity: .7;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <!-- Troque o src abaixo para o nome do seu arquivo -->
+    <img src="calendario.jpg" alt="Calendário">
+  </main>
+  <div class="creditos">Atualizado por Andrei</div>
+</body>
+</html>
